@@ -2,7 +2,7 @@ import pyttsx3
 
 def main():
     # Initialize the text-to-speech engine
-    engine = pyttsx3.init()
+    engine = pyttsx3.init('espeak')
 
     # Get user input
     text = input("Type something to be spoken: ")
